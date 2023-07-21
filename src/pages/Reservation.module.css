@@ -1,0 +1,45 @@
+.reservation {
+  min-height: 100vh;
+  padding: 2rem 1.5rem;
+
+  >h1 {
+    color: var(--secondary-color);
+    font-size: 3.6rem;
+    text-align: center;
+  }
+
+  >span {
+    font-size: 2rem;
+    color: var(--primary-color);
+    display: block;
+    text-align: center;
+  }
+
+  .avai {
+    margin-top: 4rem;
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .timeSlices {
+    margin-top: 1.5rem;
+    display: flex;
+
+
+    .timeSlice {
+      margin-right: 26px;
+      padding: 8px 16px;
+      font-size: 20px;
+      background-color: rgb(233, 233, 233);
+      border-radius: 30px;
+
+    }
+  }
+
+  .timeStart {
+    font-weight: bold;
+  }
+}
